@@ -1,6 +1,36 @@
+body{
+    background-image: url(./img/—Pngtree—abstract\ background\ of\ dark\ blue_16037970.jpg);
+    background-position: center;
+    background-size: cover;
+}
 img{
     max-width: 100%;
 }
-/* .carrusel{
-    height: 60vh !important;
-} */
+.foto{
+    margin-left: 2%;
+    width: 1500px !important;
+    height: 700px !important;
+}
+#carrusel{
+    padding-top: 10rem;
+}
+#cards{
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    h2{
+        padding-bottom: 2rem;
+    }
+}
+.casilla{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+}
+.card{
+    width: 300px;
+    img{
+        min-height: 200px !important;
+    }
+}
