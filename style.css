@@ -16,21 +16,24 @@ img{
 }
 #cards{
     text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
     h2{
         padding-bottom: 2rem;
     }
+}
+#acordeones{
+    padding-bottom: 7rem;
+    padding-top: 4rem;
 }
 .casilla{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 1rem;
 }
 .card{
-    width: 300px;
+    width: 400px;
     img{
-        min-height: 200px !important;
+        min-height: 300px !important;
     }
 }
