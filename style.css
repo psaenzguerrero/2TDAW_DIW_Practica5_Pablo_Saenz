@@ -37,3 +37,38 @@ img{
         min-height: 300px !important;
     }
 }
+#centro{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    .row{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    iframe{
+        border-radius: 10px;
+    }
+    .textito{
+        display: flex;
+        flex-flow: wrap;
+        align-items: center;
+        justify-content: center;
+        h2{
+            font-size: 4rem;
+        }
+        a{
+            text-decoration: none;
+            padding: 10px;
+            background-color: aliceblue;
+            color: black;
+            border-radius: 10px;
+        }
+        a:hover{
+            text-decoration: none;
+            padding: 10px;
+            background-color: black;
+            color: aliceblue;
+            border-radius: 10px;
+        }
+    }
+}
