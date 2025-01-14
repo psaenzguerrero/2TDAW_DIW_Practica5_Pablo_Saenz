@@ -41,7 +41,11 @@ img{
     padding-top: 10rem;
     padding-bottom: 10rem;
     text-align: center;
-    .row{
+    .row:nth-child(1){
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .row:nth-child(2){
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
@@ -71,4 +75,20 @@ img{
             border-radius: 10px;
         }
     }
+}
+.imga{
+    width: 400px;
+    height: 300px;
+}
+.imgT{
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+}
+
+@media(max-width: 768px){
+    .foto{
+        width: 800px !important;
+        height: 400px !important;
+    }
+    
 }
