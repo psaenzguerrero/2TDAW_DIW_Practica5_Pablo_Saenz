@@ -6,14 +6,23 @@ body{
 img{
     max-width: 100%;
 }
+.caja{
+    padding: 2rem;
+    border: 2px solid rgba(0, 0, 0, 0.438);
+    display: inline-block;
+
+    background-color: rgba(49, 47, 47, 0.445);
+    padding-bottom: 2rem;
+    color: rgb(255, 255, 254);
+}
 .foto{
     margin-left: 2%;
-    width: 1500px !important;
-    height: 700px !important;
+    width: 1500px ;
+    height: 700px ;
 }
 .foto2{
-    width: 1300px !important;
-    height: 600px !important;
+    width: 1300px ;
+    height: 600px ;
 }
 #carrusel{
     padding-top: 3rem;
@@ -22,9 +31,6 @@ img{
     text-align: center;
     padding-top: 6rem;
     padding-bottom: 6rem;
-    h2{
-        padding-bottom: 2rem;
-    }
 }
 #acordeones{
     padding-bottom: 7rem;
@@ -36,7 +42,13 @@ img{
     justify-content: center;
 }
 .card{
-    width: 400px;
+    min-width: 500px;
+    img{
+        min-height: 300px !important;
+    }
+}
+.card2{
+    min-width: 400px;
     img{
         min-height: 300px !important;
     }
@@ -95,8 +107,8 @@ img{
 
 @media(max-width: 1080px){
     .foto{
-        width: 800px !important;
-        height: 400px !important;
+        width: 800px;
+        height: 400px;
     }
     
 }
