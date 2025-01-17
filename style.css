@@ -9,8 +9,6 @@ img{
 .caja{
     padding: 2rem;
     border: 2px solid rgba(0, 0, 0, 0.438);
-    display: inline-block;
-
     background-color: rgba(49, 47, 47, 0.445);
     padding-bottom: 2rem;
     color: rgb(255, 255, 254);
