@@ -85,6 +85,7 @@ img{
     border-radius: 10px;
 }
 
+
 @media(max-width: 1080px){
     .foto{
         width: 800px !important;
