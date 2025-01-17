@@ -11,6 +11,10 @@ img{
     width: 1500px !important;
     height: 700px !important;
 }
+.foto2{
+    width: 1300px !important;
+    height: 600px !important;
+}
 #carrusel{
     padding-top: 3rem;
 }
@@ -70,7 +74,7 @@ img{
         a:hover{
             text-decoration: none;
             padding: 10px;
-            background-color: black;
+            background-color: rgb(245, 59, 59);
             color: aliceblue;
             border-radius: 10px;
         }
@@ -84,6 +88,9 @@ img{
     border: 3px solid whitesmoke;
     border-radius: 10px;
 }
+.ft{
+    height: 66vh;
+}
 
 
 @media(max-width: 1080px){
@@ -92,4 +99,9 @@ img{
         height: 400px !important;
     }
     
+}
+@media(max-width: 900px){
+    .ft{
+        height: 40vh;
+    }  
 }
